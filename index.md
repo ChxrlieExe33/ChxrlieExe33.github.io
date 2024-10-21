@@ -2,9 +2,10 @@
 
 layout: home
 ---
+<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
-    <title>Mi Curriculum</title>
+    <title>Charles Crane</title>
     <meta name="author" content="Charles Crane">
     <style>
 
@@ -24,8 +25,6 @@ layout: home
 
             <br>
             <h1>Charles Crane</h1>
-
-            <p>He dejado esto de mientras, en un futuro proximo mejorare esta pagina</p>
 
             <hr>
 
@@ -50,6 +49,10 @@ layout: home
             <h2>Grado Superior Desarrollo de Aplicaciones Web, MEDAC</h2>
             <p>Desde Septiembre 24-actualidad. Desarrollo de aplicaciones web en HTML, CSS, JS, PHP</p>
 
+            <h2>Certificación Practical Network Penetration Tester, TCM Security</h2>
+            <p>Realización de asesorias de seguridad ofensivas, explotacion web, enumeracion, ataques en entornos Active directory, etc.</p>
+            <a href="https://certified.tcm-sec.com/acd109a6-3843-4161-8575-1455b4ac69e6#gs.h004n3">Enlace a mi Certificado Online</a>
+
             <h2>Master en Direccion de Ciberseguridad y Hacking Etico, Escuela Internacional de Posgrados</h2>
             <p>Desde Septiembre 21 hasta Junio 22. Realizar pruebas de ciberseguridad, analisis de riesgos, asesorias de seguridad</p>
 
@@ -65,10 +68,10 @@ layout: home
             <h1>Idiomas</h1>
 
             <h2>Ingles</h2>
-            <p>Nivel Nativo</p>
+            <p>Nivel Billingue-Nativo</p>
 
             <h2>Español</h2>
-            <p>Nivel Billingue-Nativo</p>
+            <p>Nivel Nativo</p>
 
             <hr>
 
@@ -83,9 +86,21 @@ layout: home
 
             <h2>Administrador de Servicios Red y Programador Web</h2>
             <p>El Sur Existe SL.</p>
-            <br>
+            
+            <hr>
 
         </div>
+
+        <div name="redesSociales" class="section">
+
+            <h1>Redes Sociales</h1>
+            <a href="https://x.com/cc_pwnn" style="font-weight: bold;">X / Twitter</a><br><br>
+            <a href="https://www.linkedin.com/in/charlesdavidcrane/" style="font-weight: bold;">LinkedIn</a><br><br>
+            <a href="https://github.com/ChxrlieExe33" style="font-weight: bold;">GitHub</a><br>
+
+        </div>
+
+        <br><br><br>
 
     </div>
 
