@@ -2,8 +2,6 @@
 
 layout: home
 ---
-
-<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <title>Mi Curriculum</title>
@@ -36,9 +34,6 @@ layout: home
             <h1>Datos Personales</h1>
             <h2>Descripcion</h2>
             <p>Estudiante de desarrollo web en medac, aficionado de la ciberseguridad</p>
-
-            <h2>Numero Telefono</h2>
-            <p>654 55 60 00</p>
 
             <h2>Correo electronico</h2>
             <p>charliedavidcrane13@gmail.com</p>
