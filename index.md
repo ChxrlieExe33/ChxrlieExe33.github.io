@@ -25,6 +25,8 @@ layout: home
             <br>
             <h1>Charles Crane</h1>
 
+            <p>He dejado esto de mientras, en un futuro proximo mejorare esta pagina</p>
+
             <hr>
 
         </div>
@@ -63,10 +65,10 @@ layout: home
             <h1>Idiomas</h1>
 
             <h2>Ingles</h2>
-            <p>Nivel Billingue-Nativo</p>
+            <p>Nivel Nativo</p>
 
             <h2>Español</h2>
-            <p>Nivel Nativo</p>
+            <p>Nivel Billingue-Nativo</p>
 
             <hr>
 
