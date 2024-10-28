@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>My Projects</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./main.css">
+        <script>
+            function openNav(){
+                var b = document.getElementById("hamburgerLinks");
+                var navbar = document.getElementById("navbar");
+
+                if (b.style.display === "flex"){
+                    b.style.display = "none";
+                    // navbar.style.marginBottom = "30px";
+                    navbar.style.boxShadow = "rgba(0, 0, 0, 0.24) 1px -1px 8px"
+                } else {
+                    b.style.display = "flex";
+                    // navbar.style.marginBottom = "0px";
+                    navbar.style.boxShadow = "none";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        
+        <nav class="navbar" id="navbar">
+
+            <div class="navRight">
+
+                <a href="/" class="navTitle">Charles Crane</a>
+
+            </div>            
+            
+            <div class="hamburger" id="hamburger">
+                <a href="javascript:void(0);" class="icon" onclick="openNav()" style="color: white;">
+                    <i class="fa fa-bars"></i>
+                  </a>
+            </div>
+
+            <div class="navLinks" id="navLinks">
+
+                <a href="/projects.html" class="navlink">Projects</a>
+                <a href="/contact.html" class="navlink">Contact</a>
+                <a href="/about.html" class="navlink">About</a>
+
+            </div>
+           
+
+        </nav>
+
+        <div class="burgerLinks" id="hamburgerLinks">
+
+            <a href="/projects.html" class="navlink">Projects</a>
+            <a href="/contact.html" class="navlink">Contact</a>
+            <a href="/about.html" class="navlink">About</a>
+
+        </div>
+
+        <div class="projects">
+
+
+            <div class="project">
+                <h3>Nothing to see here for now</h3>
+                <p>Will continue to build this page soon</p>
+            </div>
+
+            <!--
+            <div class="project">
+
+                <h3>Project 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non lacus eu erat euismod tincidunt et ut arcu. Nunc iaculis finibus augue eu tempor. Maecenas a nisi vel sem hendrerit gravida cursus eget diam. Quisque ut ipsum rhoncus, commodo dui a, condimentum nulla. Donec id neque dapibus, rutrum enim eu, molestie eros.</p>
+
+            </div>
+
+            <div class="project">
+
+                <h3>Project 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non lacus eu erat euismod tincidunt et ut arcu. Nunc iaculis finibus augue eu tempor. Maecenas a nisi vel sem hendrerit gravida cursus eget diam. Quisque ut ipsum rhoncus, commodo dui a, condimentum nulla. Donec id neque dapibus, rutrum enim eu, molestie eros.</p>
+
+            </div>
+
+            <div class="project">
+
+                <h3>Project 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non lacus eu erat euismod tincidunt et ut arcu. Nunc iaculis finibus augue eu tempor. Maecenas a nisi vel sem hendrerit gravida cursus eget diam. Quisque ut ipsum rhoncus, commodo dui a, condimentum nulla. Donec id neque dapibus, rutrum enim eu, molestie eros.</p>
+
+            </div>
+
+            <div class="project">
+
+                <h3>Project 4</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non lacus eu erat euismod tincidunt et ut arcu. Nunc iaculis finibus augue eu tempor. Maecenas a nisi vel sem hendrerit gravida cursus eget diam. Quisque ut ipsum rhoncus, commodo dui a, condimentum nulla. Donec id neque dapibus, rutrum enim eu, molestie eros.</p>
+
+            </div>
+
+            <div class="project">
+
+                <h3>Project 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non lacus eu erat euismod tincidunt et ut arcu. Nunc iaculis finibus augue eu tempor. Maecenas a nisi vel sem hendrerit gravida cursus eget diam. Quisque ut ipsum rhoncus, commodo dui a, condimentum nulla. Donec id neque dapibus, rutrum enim eu, molestie eros.</p>
+
+            </div>
+            <div class="project">
+
+                <h3>Project 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non lacus eu erat euismod tincidunt et ut arcu. Nunc iaculis finibus augue eu tempor. Maecenas a nisi vel sem hendrerit gravida cursus eget diam. Quisque ut ipsum rhoncus, commodo dui a, condimentum nulla. Donec id neque dapibus, rutrum enim eu, molestie eros.</p>
+
+            </div>
+            <div class="project">
+
+                <h3>Project 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non lacus eu erat euismod tincidunt et ut arcu. Nunc iaculis finibus augue eu tempor. Maecenas a nisi vel sem hendrerit gravida cursus eget diam. Quisque ut ipsum rhoncus, commodo dui a, condimentum nulla. Donec id neque dapibus, rutrum enim eu, molestie eros.</p>
+
+            </div>
+            <div class="project">
+
+                <h3>Project 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non lacus eu erat euismod tincidunt et ut arcu. Nunc iaculis finibus augue eu tempor. Maecenas a nisi vel sem hendrerit gravida cursus eget diam. Quisque ut ipsum rhoncus, commodo dui a, condimentum nulla. Donec id neque dapibus, rutrum enim eu, molestie eros.</p>
+
+            </div>
+            <div class="project">
+
+                <h3>Project 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non lacus eu erat euismod tincidunt et ut arcu. Nunc iaculis finibus augue eu tempor. Maecenas a nisi vel sem hendrerit gravida cursus eget diam. Quisque ut ipsum rhoncus, commodo dui a, condimentum nulla. Donec id neque dapibus, rutrum enim eu, molestie eros.</p>
+
+            </div>
+            <div class="project">
+
+                <h3>Project 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non lacus eu erat euismod tincidunt et ut arcu. Nunc iaculis finibus augue eu tempor. Maecenas a nisi vel sem hendrerit gravida cursus eget diam. Quisque ut ipsum rhoncus, commodo dui a, condimentum nulla. Donec id neque dapibus, rutrum enim eu, molestie eros.</p>
+
+            </div>
+            <div class="project">
+
+                <h3>Project 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non lacus eu erat euismod tincidunt et ut arcu. Nunc iaculis finibus augue eu tempor. Maecenas a nisi vel sem hendrerit gravida cursus eget diam. Quisque ut ipsum rhoncus, commodo dui a, condimentum nulla. Donec id neque dapibus, rutrum enim eu, molestie eros.</p>
+
+            </div>
+            <div class="project">
+
+                <h3>Project 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non lacus eu erat euismod tincidunt et ut arcu. Nunc iaculis finibus augue eu tempor. Maecenas a nisi vel sem hendrerit gravida cursus eget diam. Quisque ut ipsum rhoncus, commodo dui a, condimentum nulla. Donec id neque dapibus, rutrum enim eu, molestie eros.</p>
+
+            </div>
+            <div class="project">
+
+                <h3>Project 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non lacus eu erat euismod tincidunt et ut arcu. Nunc iaculis finibus augue eu tempor. Maecenas a nisi vel sem hendrerit gravida cursus eget diam. Quisque ut ipsum rhoncus, commodo dui a, condimentum nulla. Donec id neque dapibus, rutrum enim eu, molestie eros.</p>
+
+            </div>
+            -->
+
+        </div>
+
+    </body>
+</html>
