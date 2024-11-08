@@ -185,8 +185,30 @@ from, to { border-color: transparent }
 
 .aboutBox a {
     color: #9F32B8;
+    font-weight: bold;
 }
 
+.contactContainer {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactContainer h1 {
+    margin: 15px;
+    color: #9F32B8;
+    text-align: center;
+}
+
+.contactContainer p {
+    text-align: center;
+}
+
+.contactContainer a {
+    color: #9F32B8;
+}
 
 @media (max-width: 850px){
 
@@ -234,6 +256,10 @@ from, to { border-color: transparent }
 
     .aboutBox h1 {
         font-size: 28px;
+    }
+
+    .contactContainer{
+        padding: 5%;
     }
 
 }
